@@ -12,6 +12,7 @@ To download a single artifact with it's dependency information, the commands are
 mvnw dependency:copy -Dartifact=com.tagit.commons:tagit-core:7.5.0.M1-SNAPSHOT:jar -DoutputDirectory=downloaded_artifacts -Dmdep.useBaseVersion=true
 mvnw dependency:copy -Dartifact=com.tagit.commons:tagit-core:7.5.0.M1-SNAPSHOT:pom -DoutputDirectory=downloaded_artifacts -Dmdep.useBaseVersion=true
 mvnw dependency:copy -Dartifact=com.tagit.commons:tagit-core:7.5.0.M1-SNAPSHOT:module -DoutputDirectory=downloaded_artifacts -Dmdep.useBaseVersion=true
+```
 
 For projects with sources and javadoc, include the following commands:
 
