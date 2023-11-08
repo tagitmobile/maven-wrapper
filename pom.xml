@@ -31,7 +31,7 @@
       <url>https://partner-nexus.tagitmobile.com/repository/maven-public/</url>
     </repository>
     <repository>
-      <id>local</id>
+      <id>nexus-local</id>
       <name>Local Nexus</name>
       <url>http://localhost:8081/repository/local-maven-public/</url>
     </repository>
